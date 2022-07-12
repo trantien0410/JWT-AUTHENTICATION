@@ -7,9 +7,7 @@ const app = express();
 
 app.use(express.json());
 
-//database
-
-
+//Create static database
 const posts = [
   {
     userId: 1,

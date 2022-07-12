@@ -8,7 +8,7 @@ const app = express();
 
 app.use(express.json());
 
-//database
+//create static database
 let users = [
   {
     id: 1,
